@@ -8,8 +8,12 @@ router.route("/")
 
 
 router 
+// Post request to save book
     .route("/:id")
     .get(bookController.findById)
+
+    // .post(bookController.savedBook)
+
     .put(bookController.update)
     .delete(bookController.remove);
 

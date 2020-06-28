@@ -19,4 +19,4 @@ export default {
     savedBooks: function() {
         return axios.get("/api/books").then(result => result.data);
     }
-}
+};
