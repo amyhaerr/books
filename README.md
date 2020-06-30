@@ -10,6 +10,10 @@ React-based Google Books Search app that displays books on user searches. Users 
 This app was deployed on Heroku:
 
 
+## Screenshots:
+
+<img src="images/searchbook.png">
+<img src="images/savedbook.png">
 
 ## Technologies:
 1. MongoDB
