@@ -6,7 +6,7 @@ router.route("/")
 .post(booksController.create);
 // matches with /api/books/:id
 router
-.route(":/id")
+.route("/:id")
 .get(booksController.findById)
 .put(booksController.update)
 .delete(booksController.remove);
