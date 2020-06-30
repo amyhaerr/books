@@ -22,7 +22,7 @@ class Results extends Component {
             ),
           })
         )
-        .catch((err) => console.err(err));
+        .catch((err) => console.log(err));
     } else {
       API.saveBook(book)
         .then((savedBook) =>
