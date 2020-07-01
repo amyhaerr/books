@@ -3,7 +3,7 @@ const db = require("../models");
 
 mongoose.connect(
     process.env.MONGODB_URI ||
-    "mongodb://localhoset/googlebooks"
+    "mongodb://localhost/googlebooks"
 );
 
 const bookSeed = 
